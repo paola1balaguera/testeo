@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+}
+
+.area-box{
+    border: 5px dashed #ddd;
+    height: 500px;
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.area-box.active{
+    background-color: blueviolet ;
+    color: black;
+    border: 2px dashed #618ac9;
+
+}
+
+.area-box span{
+    font-size: 30px;
+}
+
+.area-box button{
+    cursor: pointer;
+    padding: 10px 5px;
+    font-size: 20px;
+}
